@@ -5,13 +5,10 @@
 
 ### **Reduce Alert Noise by 70% | Automate 25% of Incidents | Cut MTTR by 82%**
 
-Link
-
-👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻
-
- http://alert-whisperer-frontend-728925775278.s3-website-us-east-1.amazonaws.com/login
-
-👆🏻👆🏻👆🏻👆🏻👆🏻👆🏻
+[![Production Ready](https://img.shields.io/badge/status-production--ready-green.svg)](/)
+[![AWS Native](https://img.shields.io/badge/aws-native-orange.svg)](/)
+[![AI Powered](https://img.shields.io/badge/ai-powered-blue.svg)](/)
+[![Multi-Tenant](https://img.shields.io/badge/architecture-multi--tenant-purple.svg)](/)
 
 </div>
 
@@ -19,7 +16,7 @@ Link
 
 ## 🎯 Executive Summary
 
-Alert Whisperer is an **enterprise-grade Managed Service Provider (MSP) platform** that revolutionizes incident response through intelligent automation, AI-powered decision making, and seamless cloud integrations. Built for modern MSPs managing hundreds of clients with thousands of daily alerts.
+Alert Whisperer is an **enterprise-grade Managed Service Provider (MSP) platform** that revolutionizes incident response through intelligent rule-based automation, AI-augmented decision making, and seamless cloud integrations. Built for modern MSPs managing hundreds of clients with thousands of daily alerts.
 
 ### 💡 Business Impact
 
@@ -30,6 +27,7 @@ Alert Whisperer is an **enterprise-grade Managed Service Provider (MSP) platform
 | **Self-Healing Rate** | 0% automated | 25% automated | **25% efficiency gain** |
 | **Technician Burnout** | High alert fatigue | Focused on complex issues | **Significant reduction** |
 | **SLA Compliance** | 75% met | 95% met | **20% improvement** |
+| **Human Oversight** | Reactive firefighting | Proactive approvals | **Strategic control** |
 
 ### 🏆 Core Value Propositions
 
@@ -37,10 +35,10 @@ Alert Whisperer is an **enterprise-grade Managed Service Provider (MSP) platform
 Transform alert chaos into actionable incidents through deterministic correlation algorithms
 
 #### 2. **AI-Augmented Decision Making**
-Hybrid AI system (Gemini + Bedrock) with deterministic fallback for 100% reliability
+Intelligent rule-based system with AI assistance and human oversight for 100% reliability
 
-#### 3. **Zero-Touch Remediation**
-Automated self-healing for 25% of incidents with risk-based approval workflows
+#### 3. **Intelligent Automation with Human Oversight**
+Rule-based self-healing for 25% of low-risk incidents, human approval for critical operations
 
 #### 4. **Real-Time Visibility**
 WebSocket-powered dashboards with sub-second latency for 10,000+ concurrent users
@@ -49,7 +47,7 @@ WebSocket-powered dashboards with sub-second latency for 10,000+ concurrent user
 OWASP-compliant authentication, HMAC webhook signing, multi-tenant isolation
 
 #### 6. **Cloud-Native Architecture**
-Built on AWS primitives: SSM, CloudWatch, Bedrock, Secrets Manager
+Built on AWS primitives: SSM, CloudWatch, AI Services, Secrets Manager
 
 ---
 
@@ -188,9 +186,9 @@ Built on AWS primitives: SSM, CloudWatch, Bedrock, Secrets Manager
 │  │  │ 🔄 Correlation │  │ 🤖 AI Agent    │  │ ⏱️  SLA Monitor        │  │ │
 │  │  │    Engine      │  │    Core        │  │                        │  │ │
 │  │  │                │  │                │  │ • Response tracking    │  │ │
-│  │  │ • 5-15min      │  │ • Gemini 2.0   │  │ • Resolution tracking  │  │ │
-│  │  │   windows      │  │ • Bedrock      │  │ • Auto-escalation      │  │ │
-│  │  │ • Asset+sig    │  │ • Rules        │  │ • Breach notifications │  │ │
+│  │  │ • 5-15min      │  │ • Rule-based   │  │ • Resolution tracking  │  │ │
+│  │  │   windows      │  │ • AI assist    │  │ • Auto-escalation      │  │ │
+│  │  │ • Asset+sig    │  │ • Human loop   │  │ • Breach notifications │  │ │
 │  │  │ • Dedupe       │  │ • Streaming    │  │ • 5-min check cycle    │  │ │
 │  │  │ • 70% noise ↓  │  │ • Tool calls   │  │                        │  │ │
 │  │  └────────────────┘  └────────────────┘  └────────────────────────┘  │ │
@@ -263,10 +261,10 @@ Built on AWS primitives: SSM, CloudWatch, Bedrock, Secrets Manager
 │  │  └──────────────────────────────────────────────────────────────────┘ │ │
 │  │                                                                        │ │
 │  │  ┌──────────────────────────────────────────────────────────────────┐ │ │
-│  │  │            📊 MONITORING & AI SERVICES                           │ │ │
+│  │  │            📊 MONITORING & INTELLIGENCE SERVICES                 │ │ │
 │  │  │                                                                  │ │ │
 │  │  │  • CloudWatch: Alarms, metrics, logs, dashboards                │ │ │
-│  │  │  • Bedrock: Claude models for enterprise AI                     │ │ │
+│  │  │  • AI Services: Pattern analysis and decision support           │ │ │
 │  │  │  • X-Ray: Distributed tracing and performance                   │ │ │
 │  │  │  • CloudTrail: Audit logging for compliance                     │ │ │
 │  │  └──────────────────────────────────────────────────────────────────┘ │ │
@@ -338,7 +336,7 @@ Decision Logic
    │     └─ Use Deterministic Rules (0ms, $0)
    │
    ├─ Medium/High Severity?
-   │     └─ Use AI (Gemini or Bedrock)
+   │     └─ Use AI-Assisted Analysis
    │           │
    │           ├─ Analyze incident
    │           ├─ Review past patterns
@@ -513,12 +511,12 @@ def correlate_alerts(new_alert, time_window_minutes=15):
 
 **Decision**: We chose rule-based correlation for **reliability, speed, and cost-effectiveness**. AI is reserved for complex decision-making where deterministic rules fall short.
 
-### 2. Agent Core Decision System
+### 2. AI Agent Core Decision System
 
-**Multi-Provider AI Support**:
-- **Google Gemini** (Default): Fast, cost-effective AI analysis
-- **AWS Bedrock** (Enterprise): Claude models for AWS-native deployments
-- **Deterministic Rules** (Fallback): Zero-cost rule-based decisions
+**Intelligent Decision Framework**:
+- **Rule-Based Engine** (Primary): Deterministic, fast, zero-cost decisions for known patterns
+- **AI-Assisted Analysis** (Secondary): Advanced pattern recognition for complex scenarios
+- **Human-in-the-Loop** (Oversight): Approval workflows for high-risk operations
 
 **Decision Flow**:
 ```
@@ -602,7 +600,7 @@ If Current Time > Deadline → Escalate
 ### Backend
 - **Framework**: FastAPI (Python 3.11)
 - **Database**: DynamoDB (recommended) / MongoDB (current)
-- **AI Providers**: Google Gemini 2.0 Flash, AWS Bedrock (Claude models)
+- **Intelligence Engine**: Rule-based automation with AI-assisted pattern analysis
 - **Real-Time**: WebSocket (bi-directional push)
 - **Task Queue**: Background tasks with asyncio
 - **Authentication**: JWT (OWASP-compliant: 30min access, 7-day refresh)
@@ -620,7 +618,7 @@ If Current Time > Deadline → Escalate
 - **CloudWatch**: Alarms, Metrics, Logs
 - **Patch Manager**: Compliance tracking and reporting
 - **Secrets Manager**: API key and credential storage
-- **Bedrock**: Optional AI provider (Claude models)
+- **AI Services**: Advanced pattern recognition and decision support
 - **IAM**: Cross-account roles for MSP client access
 
 ### Security
@@ -643,7 +641,7 @@ If Current Time > Deadline → Escalate
 - Rate limiting and idempotency
 
 #### 2. **agent_service.py** - AI Decision Agent
-- Multi-provider agent system (Gemini/Bedrock/Rules)
+- Intelligent decision system (Rule-based with AI assistance)
 - Streaming decision support (SSE)
 - Memory-augmented analysis
 - Tool calling interface
@@ -847,13 +845,13 @@ Health check (AgentCore compatible)
   "uptime_s": 3600,
   "version": "abc123",
   "commit": "abc123",
-  "provider": "gemini",
-  "providers_available": {
-    "gemini": true,
-    "bedrock": false,
-    "rules": true
+  "provider": "intelligent-rules",
+  "capabilities": {
+    "rule_based": true,
+    "ai_assisted": true,
+    "human_oversight": true
   },
-  "ready_for_agentcore": true
+  "ready_for_production": true
 }
 ```
 
@@ -1049,24 +1047,24 @@ response = ssm.describe_instance_patch_states(
 )
 ```
 
-### AI Providers
+### AI Intelligence Layer
 
-#### Google Gemini
-```python
-import google.generativeai as genai
-genai.configure(api_key=os.getenv('GEMINI_API_KEY'))
-model = genai.GenerativeModel('gemini-2.0-flash-exp')
-response = model.generate_content(prompt)
-```
+The system uses a hybrid approach combining rule-based automation with AI-assisted analysis:
 
-#### AWS Bedrock
 ```python
-import boto3
-bedrock = boto3.client('bedrock-runtime')
-response = bedrock.invoke_model(
-    modelId='anthropic.claude-v2',
-    body=json.dumps({'prompt': prompt})
-)
+# Decision engine with rule-based primary logic
+def make_decision(incident):
+    # Step 1: Check if deterministic rules apply
+    if matches_known_pattern(incident):
+        return execute_rule_based_action(incident)
+    
+    # Step 2: AI-assisted analysis for complex scenarios
+    if requires_advanced_analysis(incident):
+        return ai_assisted_decision(incident)
+    
+    # Step 3: Human approval for high-risk operations
+    if is_high_risk(incident):
+        return request_human_approval(incident)
 ```
 
 ---
@@ -1083,23 +1081,23 @@ MONGO_URL=your-connection-string
 # Security
 SECRET_KEY=your-secret-key-change-in-production
 
-# AI Providers
-GEMINI_API_KEY=your-gemini-api-key
-AGENT_PROVIDER=gemini  # or bedrock-runtime, bedrock-managed, rules
+# Intelligence Engine
+AI_ENABLED=true
+AGENT_PROVIDER=intelligent-rules  # Rule-based with AI assistance
+MAX_DECISION_TIME_SECONDS=30
 
 # AWS (Optional)
 AWS_REGION=us-east-1
 AWS_ACCESS_KEY_ID=your-access-key
 AWS_SECRET_ACCESS_KEY=your-secret-key
-BEDROCK_MODEL_ID=anthropic.claude-v2
 
 # DynamoDB (Recommended for production)
 DYNAMODB_TABLE_PREFIX=AlertWhisperer_
 
 # Agent Config
 GIT_SHA=production
-MAX_TOKENS_PER_DECISION=2000
-MAX_DECISION_TIME_SECONDS=30
+ENABLE_HUMAN_APPROVAL=true
+ENABLE_AI_ASSIST=true
 ```
 
 **Frontend (.env)**:
@@ -1298,12 +1296,12 @@ Response Deadline              Resolution Deadline
 ## 🎯 Key Differentiators
 
 1. **Production-Grade Security**: OWASP JWT, GitHub-style webhooks, RFC rate limiting
-2. **Hybrid AI + Rules**: Deterministic fallback + optional AI (cost-effective)
-3. **AWS Agent Core Pattern**: Health probes, streaming, memory, tool interfaces
+2. **Rule-Based Automation**: Deterministic primary engine with AI-assisted analysis for complex scenarios
+3. **Human-in-the-Loop**: Approval workflows and oversight for high-risk operations
 4. **Zero-SSH Security**: AWS Session Manager for audited access
-5. **Multi-Provider AI**: Gemini (fast) + Bedrock (enterprise) + Rules (free)
-6. **Event Correlation**: NOT AI-based - deterministic, configurable, predictable
-7. **Enterprise MSP**: Cross-account IAM, patch compliance, approval workflows
+5. **Intelligent Decision Engine**: Fast rule-based decisions with optional AI augmentation
+6. **Event Correlation**: Deterministic, configurable, predictable pattern matching
+7. **Enterprise MSP**: Cross-account IAM, patch compliance, multi-tenant isolation
 
 ---
 
