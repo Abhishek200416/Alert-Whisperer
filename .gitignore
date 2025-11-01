@@ -1,0 +1,15 @@
+/*
+!.gitignore
+!/backend/
+!/frontend/
+!/README.md
+**/*.pem
+**/*.key
+**/*.p12
+**/*.jks
+__pycache__/
+node_modules/
+*.env
+*.log
+build/
+dist/
